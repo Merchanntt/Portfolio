@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Adolfo Cornelius</title>
+  </head>
+  <body>
+    <!-- Header container and Nav to Sections on click the 'a' tag -->
+    <header>
+      <nav class="header-nav-container">
+        <div class="nav-ref-container">
+          <a class="nav-ref-option" href="#1">Sobre Mim</a>
+          <div class="nav-ref-option-decorator"></div>
+        </div>
+        <div class="nav-ref-container">
+          <a class="nav-ref-option" href="#2">Conhecimentos</a>
+          <div class="nav-ref-option-decorator"></div>
+        </div>
+        <div class="nav-ref-container">
+          <a class="nav-ref-option" href="#3">Portifólio</a>
+          <div class="nav-ref-option-decorator"></div>
+        </div>
+        <div class="nav-ref-container">
+          <a class="nav-ref-option" href="#4">Como me encontrar</a>
+          <div class="nav-ref-option-decorator"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- First Section: About me.
+         A brief context about me and my life; 
+         Contains the text, and image.
+    -->
+    <section id="1" class="about-me-container">
+      <main class="about-me-main">
+        <p class="about-me-text">
+          <strong>Olá!</strong> <br />
+          <br />Sou um programador apaixonado por transformar códigos em
+          soluções incríveis. Meu nome é Adolfo Cornelius Eduardo, e neste
+          espaço, compartilho um pouco da minha jornada no mundo da programação
+          e tecnologia.
+        </p>
+        <p class="about-me-text">
+          Minha paixão por desenvolvimento começou em uma semana de programação
+          gratuira da Rocketseat, onde estudei React e Javascript pela primeira
+          vez. Desde então, tenho trabalhado em diversos projetos desafiadores,
+          desde desenvolvimento web, servidores complexos e até aplicativos
+          móveis (meu favorito), sempre buscando inovação e eficiência.
+        </p>
+        <p class="about-me-text">
+          Quando não estou imerso em linhas de código, gosto de me desconectar
+          com minhas paixões pessoais. Sou um entusiasta de musica, e adoro
+          explorar novos mundos através dos games. Também sou um ávido leitor,
+          absorvendo conhecimento e histórias de todas as formas.
+        </p>
+        <p class="about-me-text">
+          Minha jornada na programação é uma busca constante por aprimoramento,
+          aprendizado e superação de desafios. Este portfólio é uma pequena
+          janela para meu trabalho e minha visão. Sinta-se à vontade para
+          explorar meus projetos e, se desejar, entre em contato para
+          colaborações ou ideias criativas.
+        </p>
+        <p class="about-me-text">
+          Obrigado por visitar meu espaço virtual. Espero que você encontre
+          inspiração e inovação aqui, assim como eu encontro na programação.
+          <br />
+          <br />
+          <strong>Bem-vindo ao meu mundo digital!</strong>
+        </p>
+      </main>
+      <img
+        class="about-me-img"
+        src="./assets/first-image.jpeg"
+        alt="foto do dono da pagina"
+      />
+    </section>
+
+    <!-- Second Section: Knoledges.
+         Grid with some of my main skills; 
+         Icon, and text.
+    -->
+    <section id="2" class="knoledges-container">
+      <h2>Conhecimentos</h2>
+      <main class="knoledges-main">
+        <div>
+          <img
+            class="knoledges-img"
+            src="./assets/icons/codeIcon.svg"
+            alt="code"
+          />
+          <h4>Engenharia de Software</h4>
+        </div>
+        <div>
+          <img
+            class="knoledges-img"
+            src="./assets/icons/englishIcon.svg"
+            alt="ingles"
+          />
+          <h4>Fluência em Inglês</h4>
+        </div>
+        <div>
+          <img
+            class="knoledges-img"
+            src="./assets/icons/reactIcon.svg"
+            alt="React"
+          />
+          <h4>React / Node</h4>
+        </div>
+        <div>
+          <img
+            class="knoledges-img"
+            src="./assets/icons/typescriptIcon.svg"
+            alt="typescript"
+          />
+          <h4>Typescript</h4>
+        </div>
+        <div>
+          <img
+            class="knoledges-img"
+            src="./assets/icons/swiftIcon.svg"
+            alt="swift"
+          />
+          <h4>Swift</h4>
+        </div>
+        <div>
+          <img
+            class="knoledges-img"
+            src="./assets/icons/awsIcon.svg"
+            alt="aws"
+          />
+          <h4>AWS</h4>
+        </div>
+        <div>
+          <img
+            class="knoledges-img"
+            src="./assets/icons/databaseIcon.svg"
+            alt="Banco de Dados"
+          />
+          <h4>Banco de Dados</h4>
+        </div>
+        <div>
+          <img
+            class="knoledges-img"
+            src="./assets/icons/dockerIcon.svg"
+            alt="Docker"
+          />
+          <h4>Docker</h4>
+        </div>
+      </main>
+    </section>
+
+    <!-- Third Section: Portfolio.
+         Has 1 project mine, and 3 jobs that i'm working.
+         When you click the logo, will redirect to the site. Except the last, is a app in development.
+    -->
+    <section id="3" class="portfolio-container">
+      <h2 class="left-title">Portifólio</h2>
+      <main class="portfolio-main">
+        <div class="portfolio-img-container">
+          <a
+            class="portfolio-image-a"
+            href="https://github.com/Merchanntt/Go_Barber"
+            target="_blank"
+          >
+            <img
+              class="arrow-icon"
+              src="./assets/icons/arrowIcon.svg"
+              alt="arrow-right-top"
+            />
+            <img
+              class="portfolio-img"
+              src="./assets/pages/logo-barber.gif"
+              alt="Image 1"
+            />
+          </a>
+          <h4>GoBarber</h4>
+          <p class="portfolio-img-p">
+            Agendamento online para barbeiros. (Pessoal)
+          </p>
+        </div>
+        <div class="portfolio-img-container">
+          <a
+            class="portfolio-image-a"
+            href="https://www.cadernomedico.com.br/"
+            target="_blank"
+          >
+            <img
+              class="arrow-icon"
+              src="./assets/icons/arrowIcon.svg"
+              alt="arrow-right-top"
+            />
+            <img
+              class="portfolio-img"
+              src="./assets/pages/caderno-medico-logotipo.svg"
+              alt="cm"
+            />
+          </a>
+          <h4>Caderno Médico</h4>
+          <p class="portfolio-img-p">Conteúdo para concursos na área Médica.</p>
+        </div>
+        <div class="portfolio-img-container">
+          <a
+            class="portfolio-image-a"
+            href="https://healthtogo.com.br/"
+            target="_blank"
+          >
+            <img
+              class="arrow-icon"
+              src="./assets/icons/arrowIcon.svg"
+              alt="arrow-right-top"
+            />
+            <img
+              class="portfolio-img"
+              src="./assets/pages/logo-health.png"
+              alt="healthtogo"
+            />
+          </a>
+          <h4>Health To Go!</h4>
+          <p class="portfolio-img-p">
+            SAAS para conectar pessoas a Nutricionistas.
+          </p>
+        </div>
+        <div class="portfolio-img-container">
+          <img
+            class="portfolio-img"
+            src="./assets/pages/logo-smart.png"
+            alt="smartestock 1"
+          />
+          <h4>Smart E-Stock</h4>
+          <p class="portfolio-img-p">
+            App para gerenciar estoque. <br />
+            (Em desenvolvimento)
+          </p>
+        </div>
+      </main>
+    </section>
+
+    <!-- Fourth Section: Contact.
+         Links to Linkedin, Github and Instagram for contact, or the form with name, email and whatsapp.
+    -->
+    <section id="4" class="contact-container">
+      <h2 class="left-title">Como me encontrar</h2>
+      <main class="contact-main">
+        <aside class="contact-aside">
+          <div>
+            <a
+              class="contact-a"
+              href="https://www.linkedin.com/in/adolfo-cornelius/"
+              target="_blank"
+            >
+              <img
+                class="knoledges-img"
+                src="./assets/icons/linkedinIcon.svg"
+                alt="linkedin"
+              />
+            </a>
+            <h4>Linkedin</h4>
+          </div>
+          <div>
+            <a
+              class="contact-a"
+              href="https://www.instagram.com/adolfocornelius/"
+              target="_blank"
+            >
+              <img
+                class="knoledges-img"
+                src="./assets/icons/instagramIcon.svg"
+                alt="instagram"
+              />
+            </a>
+            <h4>Instagram</h4>
+          </div>
+          <div>
+            <a
+              class="contact-a"
+              href="https://github.com/Merchanntt"
+              target="_blank"
+            >
+              <img
+                class="knoledges-img"
+                src="./assets/icons/githubIcon.svg"
+                alt="instagram"
+              />
+            </a>
+            <h4>Github</h4>
+          </div>
+        </aside>
+        <div class="border-line-container">
+          <div class="border-line-div"></div>
+          <h3>OU</h3>
+          <div class="border-line-div"></div>
+        </div>
+        <form class="contact-form" action="index.html">
+          <label for="name">Nome Completo</label>
+          <input type="text" id="name" name="name" />
+
+          <label for="email">E-mail</label>
+          <input type="text" id="email" name="email" />
+
+          <label for="whatsapp">Whatsapp</label>
+          <input type="text" id="whatsapp" name="whatsapp" />
+
+          <button type="submit">Enviar Contato</button>
+        </form>
+      </main>
+    </section>
+
+    <footer><h6>Desenvolvido por Adolfo Cornelius Eduardo ❤️</h6></footer>
+  </body>
+</html>
